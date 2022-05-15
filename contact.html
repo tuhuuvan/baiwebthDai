@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="vendor/css/all.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #main{
+        background-image: url(img/contact/bg_contact.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        margin: 0 auto !important;
+        z-index: 2;
+        min-height: 521px;
+    }
+   </style>
+</head>
+<body>
+    <section id="header">
+        <!-- khối chưa logo -->
+        <div id="logo">
+         <img src="img/header/logo.png" alt="">
+        </div>
+        <!-- phần liên kết , menu , tìm kiếm -->
+        <div class="header_top">
+            <div id="searchform" class="clearfix">
+                <div class="item" id="register">
+                 <a href="login.html">Đăng nhập/ đăng ký</a>
+                      
+                </div>
+                <!-- khung nhập nội dung tìm kiếm -->
+                <div class="item">
+                   <input class="search_textbox" type="text" value="Search">
+                   <div class="search_button">
+                      <a href="#"><img src="img/header/searchbtn.png" alt=""></a>
+                   </div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div id="menu" class="clearfix">
+                     <ul>
+                            <li><a href="index.html">Trang Chủ </a></li>
+                            <li><a href="order.html">Đặt Hàng Online</a></li>
+                           <li><a href="menu.html">Menu </a></li>
+                           <li><a href="#">Giới thiệu</a></li>
+                           <li><a class="menu-active" href="contact.html">Liên hệ</a></li>
+                           <li><a href="job.html">Tuyển dụng</a></li>
+                           <li class="cartimg">
+                            <a href="giohang.html">
+                                <img src="img/header/cart.png" />
+                            </a>
+                        </li>>
+                     </ul>
+            </div>
+            <!-- ngôn ngữ hiển thị -->
+            <div id="flag">
+                <a href="#"><img src="img/header/vi.png" alt="vn" title="Vietnamese"></a>
+                <a href="#"><img src="img/header/uk.png" alt="uk" title="English"></a>
+                <a href="#"><img src="img/header/kor.png" alt="kor" title="Korean"></a>
+                <a href="#"><img src="img/header/ja.png" alt="jp" title="Japan"></a>
+          
+          
+           </div>
+</div>
+        
+    </section>
+    <section id="main">
+        <div class="body_content">
+            <div class="content-title">
+                <h2 class="page_title">Liên hệ</h2>
+            </div>
+            <div class="main_contact">
+                <div class="content_left">
+                    <h2 id="margintest">Chúng tôi muốn được lắng nghe từ các bạn...</h2>
+                    <p class="pfontsizeleft">Khách hàng là nhân tố quan trọng với chúng tôi. vì vậy, nếu bạn có những suy nghĩ, ý tưởng hoạc thông tin phản hồi để chia sẽ, chúng tôi rất quan tâm để lắng nghe</p>
+                    <p class="pfontsizeleft">Sử dụng form bên cạnh để gửi cho chứng tôi ý kiến của bạn hoặc gửi mail phản hồi trực tiếp đến BỘ PHẬN CSKH <a href="#" style="color: blue;">abc@afg.vn</a></p>
+                </div>
+                <div class="content_right">
+                    <form action="" name="contact" method="" class="form-contact">
+                        <div class="inf-branch">
+                            <label for="address">Vui lòng chọn một thành phố mà bạn muốn liên hệ</label>
+                            <div class="selection-branch">
+                                <div class="content-select-branch">
+                                  <input type="text" value="Chọn chi nhánh..." class="input-branch"> 
+                                  <a class="icon-selector-branch"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                </div>
+                                <select class="dropdown_branch">
+                                  <option>Tiền Giang </option>
+                                  <option>TP HCM</option>
+                                  <option>HA NOI</option>
+                              </select>
+                            </div>
+                        </div>
+                        <div class="inf-name">
+                            <label >Họ và tên (*)</label>
+                            <input type="text" id="name" placeholder="Nhập họ và tên...">
+                        </div>
+                        <div class="inf-email">
+                            <label>Email</label>
+                            <input type="text" id="mail" placeholder="Nhập email...">
+                        </div>
+                        <div class="inf-phone">
+                            <label for="country">Số điện thoại (*)</label>
+                            <input type="text" id="phone" placeholder="Nhập số điện thọai...">
+                        </div>
+                        <div class="inf-address">
+                            <label>Địa chỉ</label>
+                            <input type="text" id="address" placeholder="Nhập địa chỉ...">
+                        </div>
+                        <div class="inf-msg">
+                            <label>Nội dung(*)</label>
+                            <input type="text" id="message" placeholder="Nhập nội dung...">
+                        </div>
+                        <div class="inf-submit">
+                            <button class="btn-submit" type="submit" value="Submit">Gửi</button>
+                        </div>
+                    </form>
+  
+                </div>
+            </div>
+        </div>
+    </section>
+ 	<section id="footer">
+		<div class="left-footer">
+	 		<ul>
+				<li class="item">@ The Al Fresco's Group 2019</li>
+				<li class="item"><a class="icon_face" href="#"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li class="item"><a class="icon_youtube" href="#"><i class="fa fa-youtube-square"></i></a></li>
+				<li class="item"><a class="icon_app" href=""><i class="fab fa-app-store"></i></a></li>
+	   		</ul>
+		</div>
+	<div class="right-footer">
+    	<ul>
+			<li><a href="site_map.html">Sơ đồ site</a></li>
+			<li><a href="opportunity.html">Nhượng quyền</a></li>
+			<li><a href="policy.html">Chính sách bảo mật</a></li>
+			<li><a href="term_condition.html">Điều kiện sử dụng</a> </li>
+			<li><a href="office.html">Head Office</a></li>
+   		 </ul>
+
+		</div>
+	</div>
+    	</section>
+</body>
+</html>

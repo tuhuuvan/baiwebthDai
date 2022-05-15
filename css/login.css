@@ -1,0 +1,74 @@
+#main{
+    background-image: url(../img/login/bg_reg.png);
+}
+#body_content{
+    width: 75%;
+    padding: 150px 135px 50px 135px;
+}
+#body_content .page_title{
+    color: #E53329;
+    font-size: 60px;
+    font-weight: bold;
+}
+#Incontent{
+    color: #883A04;
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+}
+#cLeft{
+    width: 450px;
+    background-color: #FFE9DB;
+    padding: 20px;
+    margin: 5px;
+}
+.tilteLogin {
+    color: black;
+    font-size: 30px;
+
+}
+#cLeft .username, #cLeft .password{
+    display: flex;
+    margin-top: 10px;
+}
+#cLeft .title-account{
+    width: 170px;
+    font-weight: bold;
+}
+#cLeft .input-account{
+    width: 280px;
+    height: 20px;
+}
+.forgot-password{
+    margin-top: 60px;
+    text-align: right;
+}
+.forgot-password a{
+    color: #883A04;
+}
+.btnLogin, .btnRegister {
+    width: 100px;
+    height: 35px;
+    background-color: #eb6c1d;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#cRight{
+    width: 450px;
+    background-color: #FFE9DB;
+    padding: 20px;
+    margin: 5px;
+    line-height: 23px;
+}
+#cRight .register-account{
+    text-align: right;
+    margin-top: 65px;
+}
+#btnRegister a {
+    color: white;
+    font-size: 16px;
+}

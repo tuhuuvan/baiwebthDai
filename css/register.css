@@ -1,0 +1,91 @@
+#body_content{
+    padding: 130px 150px 30px 180px;
+}
+#body_content .page_title{
+    color: #e53328;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: white;
+    width: 360px;
+    height: 85px;
+    border-radius: 10px;
+    padding: 0px 15px ;
+}
+#main_contact{
+    display: flex;
+    margin: 30px auto;
+}
+#content_left{
+    background-color: #ffe9da;
+    width: 30%;
+    height: 260px;
+    margin-right: 20px;
+    padding: 10px 10px 0px 16px;
+}
+#margintest{
+    color: #3c3b39;
+    font-size: 22px;
+}
+.pfontsizeleft{
+    color: #984d17;
+    font-size: 13px;
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+}
+#content_right{
+    background-color: #ffe9da;
+    width: 60%;
+    height: auto;
+}
+.form-contact{
+    width: 60%;
+    padding: 20px;
+}
+#main input[type=text]{
+    width: 415px;
+    height: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0px 16px 0px;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Arial,Heveltica,sans-serif';
+}
+.icon-selector-branch{
+    color: #EB6C1D;
+    font-size: 42px;
+   position: absolute;
+   margin-top: -58px;
+   margin-left: 400px;
+}
+.selection-branch{
+    position: relative;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.dropdown_branch{
+    position: absolute;
+    top: 10px;
+    width: 128%;
+    height: 35px;
+    background-clip: border-box;
+    border: none;
+}
+.ques_condition{
+    color: #883A04;
+    text-decoration: underline;
+}
+.inf-submit{
+    margin-top: 20px;
+}
+.btn-submit{
+    background-color: #f6741e;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
